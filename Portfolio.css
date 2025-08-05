@@ -1,0 +1,209 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:white !important;
+    overflow-x:hidden;
+    scroll-behavior:smooth;
+}
+/* home */
+.home{
+    height:840px;
+    background-color:black;
+}
+.navBar{
+    display:flex;
+    justify-content:space-between;
+}
+.topLeft{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position:relative;
+    left:40px;
+    top:20px;
+}
+.topRight{
+    position:relative;
+    top:20px;
+    right:40px;
+}
+.panels{
+    display:flex;
+    gap:20px;
+}
+a, a:visited, a:hover, a:active{
+    text-decoration: none !important;
+    color: inherit !important;
+}
+.panel1, .panel2, .panel3, .panel4{
+    list-style-type:none;
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.li1, .li2, .li3, .li4{
+    transform:translateY(0);
+    transition:color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+.fronting{
+    width:100%;
+    max-width:1200px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    padding-left:50px;
+    padding-top:50px;
+}
+.nmy{
+    position:relative;
+    bottom:60px;
+}
+.intro{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    padding:300px 40px 20px 40px;
+}
+/* about me */
+.aboutMe{
+    background-color:white;
+    height:500px;
+    display:flex;
+    padding-top:20px;
+}
+.about{
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.profile, .experience, .useTools{
+    list-style-type:none;
+}
+.prflli1, .expli1, .tlsli1{
+    position:relative;
+    top:10px;
+}
+.prflli2, .expli2, .tlsli2{
+    position:relative;
+    bottom:10px;
+}
+.prflli3, .expli3, .tlsli3{
+    position:relative;
+    bottom:30px;
+}
+.prflli4, .tlsli4{
+    position:relative;
+    bottom:50px;
+}
+.prflli5{
+    position:relative;
+    bottom:70px;
+}
+.prflhr{
+    position:relative;
+    bottom:10px;
+    width:463px;
+}
+/* works */
+.works{
+    height:840px;
+    background-color:black;
+    padding:30px 20px 20px 20px;
+    display:flex;
+    flex-direction:column;
+    gap:40px;
+}
+.wrkImgs{
+    display:flex;
+    justify-content:space-around;
+}
+.prj4, .prj5{
+    height:400px;
+    border:solid;
+    border-color:white;
+}
+.wrkArtcle{
+    color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:17px;
+    padding:30px 20px 20px 20px;
+}
+/* contact */
+.contactMe{
+    height:900px;
+    background-color:black;
+}
+.tyNote{
+    width: 100%;
+    max-width: 1200px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font-size:100px;
+    padding-top:50px;
+    padding-left:50px;
+}
+.cntctMe{
+    position:relative;
+    bottom:60px;
+}
+.cntctform{
+    position:relative;
+    top:100px;
+    left:100px;
+}
+.fullName, .phoneNumber, .eMail, .msg{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.fullNameIp, .phoneNumberIp, .eMailIp, .msgIp{
+background-color:transparent;
+color:rgba(255, 255, 255, 0.647);
+border-top:none;
+border-left:none;
+border-right:none;
+width:500px;
+height:30px;
+font-size:small;
+}
+.btn-primary{
+border-radius:30px !important;
+}
+
+/* motion */
+
+*:hover{
+    cursor:default;
+}
+.li1:hover{
+    cursor:pointer;
+    color:antiquewhite;
+    transform:translateY(-2px);
+}
+.li2:hover{
+    cursor:pointer;
+    color:antiquewhite;
+    transform:translateY(-2px);
+}
+.li3:hover{
+    cursor:pointer;
+    color:antiquewhite;
+    transform:translateY(-2px);
+}
+.li4:hover{
+    cursor:pointer;
+    color:antiquewhite;
+    transform:translateY(-2px);
+}
+.fullNameIp:focus{
+  outline: none;
+  box-shadow: none;
+}
+.phoneNumberIp:focus{
+  outline: none;
+  box-shadow: none;
+}
+.eMailIp:focus{
+  outline: none;
+  box-shadow: none;
+}
+.msgIp:focus{
+  outline: none;
+  box-shadow: none;
+}
